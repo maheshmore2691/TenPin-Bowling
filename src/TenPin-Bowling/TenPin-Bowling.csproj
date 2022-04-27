@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TenPin_Bowling</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TenPin-Bowling.Common\TenPin-Bowling.Common.csproj" />
+    <ProjectReference Include="..\TenPin-Bowling.Engines\TenPin-Bowling.Engines.csproj" />
+    <ProjectReference Include="..\TenPin-Bowling.Models\TenPin-Bowling.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
